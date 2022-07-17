@@ -1,0 +1,100 @@
+/* Main.css is used for manual css entries */
+
+/* typography */
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+/* colors */
+:root {
+    --dark-yellow: #F28705;
+    --medium-yellow: #F29F05;
+    --light-yellow: #F2B705;
+    --dark-blue: #0378A6;
+    --medium-blue: #0486BF;
+    --light-blue: #049DBF;
+    
+
+    --heading-text: 'Marck Script', cursive;
+    --paragraph-text: 'Varela Round', sans-serif;
+}
+
+header {
+    background-color: #F2B705;
+    padding: 10px 50px;
+    margin-bottom: 25px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+
+main {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    align-items: right;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.create-post{
+    margin-right: 10px;
+}
+
+.go-live{
+    margin-left: 10px;
+}
+
+.go-live, .create-post{
+    background-color: var(--light-yellow);
+    width: 100px;
+    height: 35px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-family: var(--paragraph-text);
+}
+
+h1, h2, h3, h4{
+    font-family: var(--heading-text);
+}
+
+p {
+    font-family: var(--paragraph-text);
+}
+
+.like {
+    font: 0;
+    background-image: url(/icons/favorite.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    border: none;    
+}
+.like:hover {
+    background-image: url(/icons/favorited.png);
+}
+
+
+footer {
+    background-color: var(--light-yellow);
+}
+
+.copyright {
+    text-align: center;
+}

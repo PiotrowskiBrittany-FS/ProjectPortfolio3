@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puparazzi</title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
 </head>
 <body>
     <header>
@@ -17,44 +19,53 @@
             <a href="#">Grooming</a>
             <a href="#">Contact</a>
             <a href="#">Vet</a>
+            <a href="#" class="right"><img src="/icons/shop.png" alt="my cart"></a>
+            <a href="#" class="right"><img src="/icons/account.png" alt="account"></a>
         </nav>
-        <h1>Home</h1>
-        <img src="/icons/puparazziLogo_100px.png" alt="puparazzi logo">
-        <a href="#">Create Post</a>
-        <a href="#">Go Live</a>
-        <h2>Latest Posts</h2>
-        <h2>Trending Now</h2>
     </header>
 
     <main>
+        <div class="heading">
+            <h1>Home</h1>
+            <img class="logo" src="/icons/puparazziLogo_100px.png" alt="puparazzi logo">
+            <div class="buttons">
+                <a class="create-post" href="#">Create Post</a>
+                <a class="go-live" href="#">Go Live</a>
+            </div>
+            
+        </div>
+        <!-- <a href="#">Go Live</a> -->
+        <h2>Latest Posts</h2>
+        <h2>Trending Now</h2>
         <div class="container">
             <article class="row">
                 <h3>Latest Posts</h3>
                 <section class="col">
                     <img src="/images/home1.png" alt="picture of a dog wrapped in a blanket">
-                    <h3>Grace the Dog</h3>
-                    <p>My owner loves to let me lay in bed and use their pillow and blanket when I don't feel like getting up. Just living my best life</p>
-                    <img src="/icons/favorite.png" alt="like this image">
+                    <h4>Grace the Dog</h4>
+                    <button class="like"></button>
+                    <p>My owner loves to let me lay in bed and use their pillow and blanket when I don't feel like getting up. Just living my best life</p>    
                 </section>
                 <section class="col">
                     <img src="/images/post1.png" alt="picture of a dog giving puppy eyes">
-                    <h3>Sofie</h3>
+                    <h4>Sofie</h4>
+                    <button class="like"></button>
                     <p>I've been practicing my puppy eyes lately. I think they've been getting better. What do you think?</p>
-                    <img src="/icons/favorite.png" alt="like this image">
                 </section>
                 <section class="col">
-                    <img src="/images/post2.png" alt="picture of a dog wrapped in a blanket">
-                    <h3>Grace the Dog</h3>
-                    <p>My owner loves to let me lay in bed and use their pillow and blanket when I don't feel like getting up. Just living my best life</p>
-                    <img src="/icons/favorite.png" alt="like this image">
+                    <img src="/images/post2.png" alt="picture of a dog on its back">
+                    <h4>Otis</h4>
+                    <button class="like"></button>
+                    <p>So tired today. I've been laying on the floor just trying to get cozy on my lazy day.</p>
                 </section>
                 <section class="col">
-                    <img src="/images/post3.png" alt="picture of a dog wrapped in a blanket">
-                    <h3>Grace the Dog</h3>
-                    <p>My owner loves to let me lay in bed and use their pillow and blanket when I don't feel like getting up. Just living my best life</p>
-                    <img src="/icons/favorite.png" alt="like this image">
+                    <img src="/images/post3.png" alt="picture of a dog next to a woman">
+                    <h4>Lilla</h4>
+                    <button class="like"></button>
+                    <p>I think my owner and I look great together. We did another photoshoot and she even tried to match me! Don't we look great together?</p>
                 </section>
             </article>
+            
         </div>
     </main>
 
@@ -79,7 +90,7 @@
             <a href="#">PRIVACY POLICY</a>
             <a href="#">TERMS & CONDITIONS</a>
         </article>
-        <p>&copy; Brittany Piotrowski</p>
+        <p class="copyright">&copy; Brittany Piotrowski</p>
     </footer>
 </body>
 </html>
