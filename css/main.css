@@ -111,14 +111,17 @@ article h3{
     color: var(--dark-yellow);
 }
 
+
 .like {
     font: 0;
     background-image: url(/icons/favorite.png);
     background-repeat: no-repeat;
     height: 25px;
     width: 25px;
-    border: none;    
+    border: none;
+    float: right;
 }
+
 .like:hover {
     background-image: url(/icons/favorited.png);
 }
