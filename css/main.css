@@ -140,6 +140,7 @@ table {
     margin-top: 75px;
 }
 
+
 article h4{
     color: var(--dark-yellow);
 }
@@ -149,6 +150,36 @@ section h5 {
     font-size: 14px;
     /* set this font size to be very small due to this being the author of the blog article. */
 }
+
+/* Contact form */
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid var(--dark-blue); 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+#message-label {
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 50px;
+    font-family: var(--paragraph-text);
+}
+
+.submit {
+    width: 100%;
+    margin: 25px 0;
+    border-radius: 10px;
+    background-color: var(--light-yellow);
+}
+
 
 footer {
     background-color: var(--light-yellow);

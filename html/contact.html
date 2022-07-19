@@ -25,13 +25,54 @@
 
     <main>
         <div class="heading">
-            <h1>Contact</h1>
+            <h1>Contact Us</h1>
             <img class="logo" src="/icons/puparazziLogo_100px.png" alt="puparazzi logo">
             <div class="buttons">
                 <a class="go-live" href="#">Go Live</a>
             </div>
-            
         </div>
+
+        <div class="container">
+            <form action="contact" class="form-control">
+                <label for="fname" class="form-label">First Name: </label>
+                <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+                <label for="lname" class="form-label">Last Name: </label>
+                <input type="text" name="lname" id="lastname" placeholder="Last Name">
+
+                <label for="dogname" class="form-label">Dog's Name: </label>
+                <input type="text" name="dogname" id="dogname" placeholder="Dog's Name">
+
+                <label for="age" class="form-label">Dog's Age: </label>
+                <select name="age" id="age">
+                    <option value="select">select</option>
+                    <option value="less1">Younger Than 1</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="more15">Older Than 15</option>
+                </select>
+
+                <label for="message" id="message-label" class="form-label">Message: </label>
+                <textarea type="message" name="message" id="message" placeholder="Type Your Message Here" style="height:200px"></textarea>
+
+                <input type="submit" value="submit" class="submit">
+            </form>
+        </div>
+
+
     </main>
 
     <footer>
