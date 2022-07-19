@@ -61,6 +61,8 @@ main {
     justify-content: space-around;
 }
 
+/* Home Page */
+
 .create-post{
     margin-right: 10px;
 }
@@ -89,9 +91,10 @@ main {
     cursor: pointer;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
     font-family: var(--heading-text);
 }
+
 
 p {
     font-family: var(--paragraph-text);
@@ -126,6 +129,26 @@ article h3{
     background-image: url(/icons/favorited.png);
 }
 
+
+/* Blog Page */
+
+table {
+    font-size: 12px;
+}
+
+#blog {
+    margin-top: 75px;
+}
+
+article h4{
+    color: var(--dark-yellow);
+}
+
+section h5 {
+    color: var(--light-blue);
+    font-size: 14px;
+    /* set this font size to be very small due to this being the author of the blog article. */
+}
 
 footer {
     background-color: var(--light-yellow);
