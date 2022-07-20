@@ -10,5 +10,5 @@ window.main = document.querySelector('main');
     console.log('page loaded');
 
     Submit.SubmitForm();
-
+    Submit.navFunction();
 })();
