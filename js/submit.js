@@ -70,8 +70,8 @@ class Submit {
         `;
         main.append(menu);
         document.getElementById("hamMenu").style.display.block;
-        document.getElementsByClassName("exit").forEach((exit) => {
-          exit.addEventListener("exit", (event) => {
+        document.querySelectorAll(".exit").forEach((close) => {
+          close.addEventListener("click", (event) => {
             event.preventDefault();
             console.log("close clicked");
             menu.classList.remove("contact-modal");
