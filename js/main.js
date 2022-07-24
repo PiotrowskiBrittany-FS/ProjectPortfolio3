@@ -13,5 +13,4 @@ window.main = document.querySelector('main');
     Submit.navFunction();
     Submit.Like();
     Account.CreateAccount();
-    Account.ShowAccount();
 })();
