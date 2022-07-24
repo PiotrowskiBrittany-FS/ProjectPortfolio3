@@ -44,6 +44,21 @@ class Submit {
         });
       });
   }
+
+
+  static Like(){
+    let btn = document.querySelectorAll(".like");
+
+   btn.forEach((click) => {
+    click.addEventListener("click", (event) => {
+      event.preventDefault();
+      document.getElementById("like").style.backgroundImage = "url('/icons/favorited.png')"
+    })
+   })
+  }
+
+
+
   static navFunction() {
 
     let iconElement = document.querySelectorAll(".icon");
@@ -89,6 +104,8 @@ class Submit {
     
   }
 }
+
+
 
 
 

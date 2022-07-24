@@ -15,13 +15,13 @@
     <header>
         <nav class="topnav" id="myTopnav">
             <a href="#"><img src="/icons/puparazziLogo_50px.png" alt="puparazzi logo"></a>
-            <a href="index.html" class="active">Home</a>
+            <a href="index.html">Home</a>
             <a href="blog.html">Blog</a>
             <a href="vet.html">Vet</a>
             <a href="groom.html">Grooming</a>
             <a href="contact.html">Contact</a>
             <a href="cart.html"><img src="/icons/shop.png" alt="my cart"></a>
-            <a href="account.html"><img src="/icons/account.png" alt="account"></a>
+            <a href="account.html" class="active"><img src="/icons/account.png" alt="account"></a>
             <a class="icon" id="icon">
                 <img src="/icons/menu.png" alt="menu button">
             </a>
@@ -37,6 +37,52 @@
             </div>
             
         </div>
+
+
+        <div class="container">
+            <div id="account-container" class="container">
+                <form class="form-control">
+                <label for="fname" class="form-label">First Name: </label>
+                <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+                <label for="lastname" class="form-label">Last Name: </label>
+                <input type="text" name="lname" id="lastname" placeholder="Last Name">
+
+                <label for="dogname" class="form-label">Dog's Name: </label>
+                <input type="text" name="dogname" id="dogname" placeholder="Dog's Name">
+
+                <label for="age" class="form-label">Dog's Age: </label>
+                <select name="age" id="age">
+                    <option value="select">select</option>
+                    <option value="less1">Younger Than 1</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="more15">Older Than 15</option>
+                </select>
+
+                <label for="email" id="email-label" class="form-label">Email: </label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com">
+
+                <button class="create">Submit</button>
+            </form>
+                </div>
+        </div>
+
+
+
     </main>
 
     <footer>

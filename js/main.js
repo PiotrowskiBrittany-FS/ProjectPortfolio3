@@ -1,6 +1,6 @@
 //Import Task
-
 import Submit from "./submit.js";
+import Account from "./account.js";
 //Globals
 window.main = document.querySelector('main');
 
@@ -11,4 +11,7 @@ window.main = document.querySelector('main');
 
     Submit.SubmitForm();
     Submit.navFunction();
+    Submit.Like();
+    Account.CreateAccount();
+    Account.ShowAccount();
 })();
