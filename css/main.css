@@ -157,9 +157,7 @@ main {
     justify-content: space-around;
 }
 
-.logo {
-    align-items: right;
-}
+
 
 .buttons {
     display: flex;
@@ -192,6 +190,17 @@ main {
     color: var(--dark-blue);
 }
 #section-link:hover {
+    color: var(--dark-yellow);
+    cursor: pointer;
+}
+
+#section-trend {
+    display: inline-block;
+    padding-right: 50px;
+    color: var(--dark-blue);
+}
+
+#section-trend:hover {
     color: var(--dark-yellow);
     cursor: pointer;
 }
